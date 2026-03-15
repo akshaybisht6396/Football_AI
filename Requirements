@@ -1,0 +1,19 @@
+# --- Core Computer Vision & AI ---
+ultralytics>=8.0.0      # For YOLOv8/v11 (Detection & Tracking)
+opencv-python>=4.8.0    # For image processing & drawing overlays
+mediapipe>=0.10.0       # For player pose or high-level gesture tracking
+torch>=2.0.0            # PyTorch backend for YOLO
+torchvision>=0.15.0
+
+# --- Data Processing & Math ---
+numpy>=1.24.0           # Array manipulations
+pandas>=2.0.0           # Handling tracking data & metrics
+scipy>=1.10.0           # For distance calculations & signal smoothing
+
+# --- Visualization ---
+matplotlib>=3.7.0       # For generating heatmaps and graphs
+seaborn>=0.12.0         # For advanced statistical plots
+
+# --- Utilities ---
+tqdm>=4.65.0            # Progress bars for long video processing
+python-dotenv>=1.0.0    # For managing environment variables (if needed)
